@@ -17,7 +17,7 @@ npm.cmd run preview
 
 在 Windows 使用 `npm.cmd` 可避免 PowerShell 的 npm.ps1 執行政策差異。macOS、Linux 可使用 `npm`。
 
-正式資料狀態預覽：[本機 README](http://127.0.0.1:4173/preview/index.html)。目前資料尚未連接時顯示空狀態。完整圖表外觀預覽：[示意資料](http://127.0.0.1:4173/fixture/index.html)。此入口明確標記測試資料，只存在未追蹤的 `work/`，不發布到 GitHub。
+正式資料狀態預覽：[本機 README](http://127.0.0.1:4173/preview/index.html)。本機已同步第一次成功更新的真實快照；之後以 git pull --ff-only 取得 Actions 的新數據。完整圖表外觀預覽：[示意資料](http://127.0.0.1:4173/fixture/index.html)。此入口明確標記測試資料，只存在未追蹤的 `work/`，不發布到 GitHub。
 
 `npm run init:profile` 只用於第一次建立 unavailable 快照；已有快照會拒絕覆蓋。一般修改文字或配色後執行 build，即可從現有快照重建。需要更新數字時執行 update。
 
@@ -49,7 +49,7 @@ Token 必須限於讀取公開資料；不要授予私人儲存庫存取。GitHu
 
 必要目標是公開儲存庫 `jacky105402002/jacky105402002`，其預設分支根目錄需有這份生成的 README。[GitHub 官方設定方式](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
 
-先確認同名儲存庫是否存在及是否可存取；本次讀取回傳 404，不能據此排除未授權的私人儲存庫。若已有內容，先保留再整合。若不存在，建立公開同名空儲存庫後，再連接此本機專案並推送經檢查的檔案。不要把 `work/`、`.env` 或 token 上傳。
+同名公開儲存庫已建立並發布，本機 origin 已連接。首次更新已驗證內建 GITHUB_TOKEN 足以取得所需資料並推送生成檔，目前不需要額外 PROFILE_READ_TOKEN。日後修改前先執行 git pull --ff-only；有本機未提交變更時先保留並整合。work、.env 及 token 均不在發布內容中。
 
 上傳成功後，開啟 [Jacky 個人首頁](https://github.com/jacky105402002) 檢查 README 與圖片。到 Actions 手動執行 Update profile，成功後再確認真實統計與日期。每日更新設於台北時間 08:23；排程與圖片快取可能有延遲，不能當即時服務。
 

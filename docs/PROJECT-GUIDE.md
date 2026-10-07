@@ -1,6 +1,6 @@
 # Jacky GitHub 個人首頁開發規格
 
-本專案將 `jacky105402002` 的 GitHub 個人首頁設計為深海青綠風格，透過原生 README 內容與自行產生的 SVG 卡片呈現介紹、作品及 GitHub 活動。此資料夾已包含 README 與 SVG 產生器、API client、離線測試與 Actions 設定。真實 API 授權、遠端發布及 GitHub 平台驗收待完成。
+本專案將 `jacky105402002` 的 GitHub 個人首頁設計為深海青綠風格，透過原生 README 內容與自行產生的 SVG 卡片呈現介紹、作品及 GitHub 活動。此資料夾已包含 README 與 SVG 產生器、API client、離線測試與 Actions 設定。已發布到同名公開儲存庫，首次真實資料更新及 GitHub 頁面載入驗證成功。
 
 版本：1.0.0　日期：2026-10-07　使用情境：Web 開發　工作流：不使用工作流。
 
@@ -27,6 +27,6 @@
 
 先閱讀 [維護指南](MAINTENANCE.md) 與 [實作狀態](IMPLEMENTATION-STATUS.md)，即可執行本機預覽或接續上線。先用標明為測試的資料完成本機產生器，再接 GitHub API。真實數據、遠端儲存庫、權限及 GitHub 實際渲染都需在對應階段驗證，不能由本機預覽推定成功。
 
-目標遠端儲存庫為 `jacky105402002/jacky105402002`；本次公開 API 與已連接工具皆回傳 404，尚無可讀取的目標儲存庫。建立或連接時先檢查，不能覆蓋既有內容。
+正式儲存庫為 [jacky105402002/jacky105402002](https://github.com/jacky105402002/jacky105402002)，預設分支 main。本機 origin 及分支追蹤已設定；修改前先同步遠端，保留 Actions 更新的快照。
 
 本檔為開發文件入口；根目錄 `README.md` 現已由首頁模板產生，完整規格文件保留在 docs。

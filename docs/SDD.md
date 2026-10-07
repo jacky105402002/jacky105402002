@@ -166,7 +166,7 @@ GraphQL 讀 `user(login)` 的 `contributionsCollection(from,to)`，取得日曆�
 
 每日 08:23 台北時間執行，使用 UTC cron `23 0 * * *`；另支援 workflow_dispatch，修改設定、模板、程式或 tokens 時可在預設分支 push 觸發。pull_request 只跑 check。排程只在預設分支執行，可能延遲或因長時間無儲存庫活動而停用，維護者需能手動重跑。[官方事件規範](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 
-GitHub Actions 設定已寫入 .github/workflows；尚未上傳啟用，也未在 Codex 建立提醒或排程。CI 預設 `contents: read`，只有可信預設分支的發布 job 開 `contents: write`；concurrency 固定為 profile-update，`cancel-in-progress: false`。外部 actions 在開發階段固定可信 commit SHA。若分支保護不允許 bot 直推，改以更新分支與 PR 流程，不繞過保護。
+GitHub Actions 已發布，首次 Check profile 與 Update profile 執行成功，真實統計已寫回 main。每日排程已隨 workflow 設定部署；尚未等待下一次排程時間驗證定時觸發。本專案未在 Codex 建立提醒。CI 預設 `contents: read`，只有可信預設分支的發布 job 開 `contents: write`；concurrency 固定為 profile-update，`cancel-in-progress: false`。外部 actions 在開發階段固定可信 commit SHA。若分支保護不允許 bot 直推，改以更新分支與 PR 流程，不繞過保護。
 
 | 狀況 | 行為 |
 | --- | --- |
