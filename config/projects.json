@@ -1,0 +1,16 @@
+[
+  {
+    "repo": "jacky105402002/MingMing-AI-Product-Engineering-Loop",
+    "title": "MingMing AI Product Engineering Loop",
+    "summary": "將 AI 輔助開發整理成可追蹤、可審查、可測試的產品工程流程，串連規劃、實作與文件維護。",
+    "verifiedAt": "2026-10-07",
+    "source": "https://github.com/jacky105402002/MingMing-AI-Product-Engineering-Loop/blob/main/README.md"
+  },
+  {
+    "repo": "jacky105402002/ai-web-package-react",
+    "title": "AI 前端原型整理工具",
+    "summary": "把 AI 工具產生的前端原型整理成可維護、可建置的 React 與 Vite 靜態網站專案，附部署與轉換檢查文件。",
+    "verifiedAt": "2026-10-07",
+    "source": "https://github.com/jacky105402002/ai-web-package-react/blob/main/README.md"
+  }
+]
