@@ -27,22 +27,22 @@
 - **26 個公開原創專案** · 目前，排除封存專案
 - **6 顆 Stars** · 上述專案目前累計
 
-貢獻期間：2025-11-01 — 2026-10-13（含尚未結束的本月）。
+貢獻期間：2025-11-01 — 2026-10-14（含尚未結束的本月）。
 
 程式碼以 **TypeScript、JavaScript、HTML** 為主；依公開原創專案的程式碼量統計，不代表熟練度。
 
 <details>
 <summary>展開活動圖表</summary>
 
-![活動摘要，2025-11-01 至 2026-10-13；另附文字數據](assets/generated/activity.svg)
+![活動摘要，2025-11-01 至 2026-10-14；另附文字數據](assets/generated/activity.svg)
 
-![連續貢獻，2025-11-01 至 2026-10-13；另附文字數據](assets/generated/streak.svg)
+![連續貢獻，2025-11-01 至 2026-10-14；另附文字數據](assets/generated/streak.svg)
 
-![語言分布，2025-11-01 至 2026-10-13；另附文字數據](assets/generated/languages.svg)
+![語言分布，2025-11-01 至 2026-10-14；另附文字數據](assets/generated/languages.svg)
 
-![每月貢獻，2025-11-01 至 2026-10-13；另附文字數據](assets/generated/monthly.svg)
+![每月貢獻，2025-11-01 至 2026-10-14；另附文字數據](assets/generated/monthly.svg)
 
-![每日貢獻日曆，2025-11-01 至 2026-10-13；另附文字數據](assets/generated/calendar.svg)
+![每日貢獻日曆，2025-11-01 至 2026-10-14；另附文字數據](assets/generated/calendar.svg)
 
 </details>
 
@@ -439,7 +439,8 @@
 | 2026-10-11 | 0 |
 | 2026-10-12 | 0 |
 | 2026-10-13 | 0 |
+| 2026-10-14 | 0 |
 
 </details>
 
-<sub>最後更新：2026/10/13 14:53（台灣時間）</sub>
+<sub>最後更新：2026/10/14 13:02（台灣時間）</sub>
