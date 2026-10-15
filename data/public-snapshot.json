@@ -3,7 +3,7 @@
   "login": "jacky105402002",
   "status": "ok",
   "sourceDate": "2026-10-15",
-  "lastSuccessfulFetchAt": "2026-10-15T04:51:45.703Z",
+  "lastSuccessfulFetchAt": "2026-10-15T12:54:14.372Z",
   "period": {
     "from": "2025-11-01",
     "through": "2026-10-15"
@@ -54,6 +54,13 @@
     {
       "name": "Ming-Music-Lab",
       "url": "https://github.com/jacky105402002/Ming-Music-Lab",
+      "description": "",
+      "stars": 0,
+      "languagesBytes": {}
+    },
+    {
+      "name": "Ming-design-loop",
+      "url": "https://github.com/jacky105402002/Ming-design-loop",
       "description": "",
       "stars": 0,
       "languagesBytes": {}
@@ -166,7 +173,7 @@
       "stars": 0,
       "languagesBytes": {
         "HTML": 7012,
-        "JavaScript": 47439
+        "JavaScript": 53496
       }
     },
     {
@@ -2002,46 +2009,46 @@
     },
     {
       "date": "2026-10-15",
-      "count": 0,
-      "level": "NONE"
+      "count": 3,
+      "level": "SECOND_QUARTILE"
     }
   ],
   "contributionTotals": {
-    "calendar": 156,
-    "commits": 128,
+    "calendar": 159,
+    "commits": 130,
     "issues": 1,
     "pullRequests": 5,
     "reviews": 0
   },
   "currentRepositoryTotals": {
-    "repositoryCount": 26,
+    "repositoryCount": 27,
     "stars": 6
   },
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 402374,
-      "percent": 34.2
+      "percent": 34.1
     },
     {
       "name": "JavaScript",
-      "bytes": 309183,
-      "percent": 26.3
+      "bytes": 315240,
+      "percent": 26.7
     },
     {
       "name": "HTML",
       "bytes": 224678,
-      "percent": 19.1
+      "percent": 19
     },
     {
       "name": "CSS",
       "bytes": 127955,
-      "percent": 10.9
+      "percent": 10.8
     },
     {
       "name": "Python",
       "bytes": 105707,
-      "percent": 9
+      "percent": 8.9
     },
     {
       "name": "其他",
@@ -2107,13 +2114,13 @@
     },
     {
       "month": "2026-10",
-      "count": 10,
+      "count": 13,
       "isPartial": true
     }
   ],
   "streak": {
-    "current": 0,
-    "currentThrough": null,
+    "current": 1,
+    "currentThrough": "2026-10-15",
     "longestInPeriod": 6,
     "startBoundaryReached": false
   }
