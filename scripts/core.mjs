@@ -45,6 +45,11 @@ export function validateConfig(profile, projects, tokens) {
     assert(/^jacky105402002\/[\w.-]+$/.test(p.repo), 'Invalid featured repo');
     safeText(p.title, 100); safeText(p.summary, 300); validDate(p.verifiedAt); safeUrl(p.source);
     if (p.demoUrl) safeUrl(p.demoUrl);
+    const cover=p.showcase;
+    assert(cover && ['workflow','package'].includes(cover.kind), 'Invalid showcase type');
+    safeText(cover.name,18);safeText(cover.category,18);safeText(cover.caption,20);
+    assert(Array.isArray(cover.steps) && cover.steps.length===3,'Showcase requires three stages');
+    cover.steps.forEach(step=>safeText(step,3));
   });
   const hex = v => assert(/^#[0-9A-Fa-f]{6}$/.test(v), 'Invalid color token');
   for (const v of Object.values(tokens.colors)) {

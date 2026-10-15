@@ -1,6 +1,14 @@
 # Jacky GitHub 個人首頁軟體設計規格
 
-版本 1.1.0，2026-10-07。SDD 指 Software Design Description。本規格定義以 GitHub Profile README 為交付平台的個人展示頁；深海青綠為使用者已選定的視覺方向，以下技術方案作為第一版開發基準。
+## 1.2 展示資產與響應式圖片（2026-10-15）
+
+新增 scripts/showcase.mjs，與既有卡片共同由 outputs() 產生。每個代表作輸出 project-N.svg／project-N-mobile.svg；活動概覽輸出 overview.svg／overview-mobile.svg。兩個作品時共 12 張 SVG。README 與本機預覽共用 responsiveImage()，使用 GitHub 支援的 picture 與 source，900 px 以下切換窄版。
+
+config/projects.json 的 showcase 欄位定義 name、category、caption、三個 steps 與 workflow／package 類型。這些欄位作為專案內容資料處理，不執行任何專案指令。驗證文字長度與類型，XML 轉義後再輸出。生成器同時檢查 Markdown 圖片、HTML src 與 srcset 的資產存在性；新增圖片遵循交易式寫入與明確檔名白名單。Actions 只提交 generated 內的對應專案與概覽 SVG。
+
+完整數據、API 查詢範圍、排程、錯誤保留策略不變。圖片使用替代文字，專案說明與連結可直接以原生文字閱讀，統計口徑在圖片外顯示。來源：[GitHub picture 支援](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#the-picture-element)。
+
+版本 1.2.0，2026-10-07。SDD 指 Software Design Description。本規格定義以 GitHub Profile README 為交付平台的個人展示頁；深海青綠為使用者已選定的視覺方向，以下技術方案作為第一版開發基準。
 
 ## 1.1 版閱讀層級調整
 

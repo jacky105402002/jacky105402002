@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {validateConfig,validateSnapshot,unavailable} from './core.mjs';
 import {GitHubClient,collect} from './github.mjs';
 import {renderCards,renderReadme,renderPreview} from './render.mjs';
+import {renderShowcase} from './showcase.mjs';
 
 export const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const parse=async p=>JSON.parse(await fs.readFile(p,'utf8'));
@@ -14,7 +15,7 @@ export async function loadConfig(root=ROOT){
 }
 export function outputs(config,s,{allowFixture=false}={}){
   validateSnapshot(s,{allowFixture});
-  const {profile,projects,tokens,template}=config,cards=renderCards(profile,s,tokens);
+  const {profile,projects,tokens,template}=config,cards={...renderCards(profile,s,tokens),...renderShowcase(projects,s,tokens)};
   let total=0;
   for(const svg of Object.values(cards)){
     const bytes=Buffer.byteLength(svg);total+=bytes;assert(bytes<tokens.limits.svgBytes,'SVG exceeds size limit');
@@ -25,11 +26,12 @@ export function outputs(config,s,{allowFixture=false}={}){
   const readme=renderReadme(profile,projects,s,template);
   assert(!readme.includes('{{'),'Unresolved README template field');
   for(const m of readme.matchAll(/\]\(assets\/generated\/([^)]+)\)/g))assert(m[1] in cards,'Missing README image');
+  for(const m of readme.matchAll(/(?:src|srcset)="assets\/generated\/([^"]+)"/g))assert(m[1] in cards,'Missing responsive README image');
   return {'README.md':readme,'data/public-snapshot.json':JSON.stringify(s,null,2)+'\n',...Object.fromEntries(Object.entries(cards).map(([name,svg])=>[`assets/generated/${name}`,svg]))};
 }
 export async function writeTransaction(root,files,{beforeWrite=()=>{}}={}){
   // Explicit allowlist; no user-configured path is accepted.
-  for(const name of Object.keys(files))assert(/^(README\.md|data\/public-snapshot\.json|assets\/generated\/(hero|activity|streak|languages|monthly|calendar)\.svg)$/.test(name),'Output path outside allowlist');
+  for(const name of Object.keys(files))assert(/^(README\.md|data\/public-snapshot\.json|assets\/generated\/(hero|activity|streak|languages|monthly|calendar|(?:project-[1-3]|overview)(?:-mobile)?)\.svg)$/.test(name),'Output path outside allowlist');
   const backups=new Map(),written=[];
   for(const name of Object.keys(files)){
     const dest=path.join(root,name);
@@ -85,7 +87,7 @@ export async function main(command,root=ROOT){
   const files=outputs(config,s);
   if(command==='check'){
     for(const [name,value]of Object.entries(files))assert.equal(await fs.readFile(path.join(root,name),'utf8'),value,`Generated file differs: ${name}`);
-    console.log('Generated README, snapshot and all six SVGs match their inputs.');return;
+    console.log('Generated README, snapshot and all SVGs match their inputs.');return;
   }
   const staging=path.join(root,'work/staging');await preview(config,s,files,staging);
   const changed=await writeTransaction(root,files);

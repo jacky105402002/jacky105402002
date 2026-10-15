@@ -1,5 +1,11 @@
 # 個人首頁製作與維護
 
+## 維護作品封面（1.2）
+
+修改 config/projects.json 的 showcase 設定：name 為封面名稱，category 為分類，caption 為桌機短句，steps 為三個短步驟，kind 為 workflow 或 package。完整用途仍在 title、summary 內。請先核對專案內容，再更新 verifiedAt。
+
+執行 npm run build 會同時生成桌機與窄版封面、活動概覽、README 與本機預覽。不要直接編輯 assets/generated。修改結構時需同時檢查 scripts/cli.mjs 的輸出白名單與 .github/workflows/update.yml 的提交範圍。版面需在 GitHub 實測 320、375、768 與 1280 px，確認 source 正確切換、專案圖片可點擊、替代文字存在、收合圖表可開啟。
+
 此專案以原生 README 和深海青綠 SVG 客製化 Jacky 的 GitHub 首頁展示區。GitHub 的導覽、側欄及整頁背景由平台控制。程式不依賴外部統計卡片服務，也不需要網站主機。
 
 ## 本機使用

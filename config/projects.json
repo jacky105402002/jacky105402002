@@ -3,14 +3,36 @@
     "repo": "jacky105402002/MingMing-AI-Product-Engineering-Loop",
     "title": "MingMing｜讓 AI 開發有章可循",
     "summary": "串連規劃、實作、審查與測試，讓 AI 輔助開發有清楚的步驟與可追蹤的文件。",
-    "verifiedAt": "2026-10-07",
-    "source": "https://github.com/jacky105402002/MingMing-AI-Product-Engineering-Loop/blob/main/README.md"
+    "verifiedAt": "2026-10-15",
+    "source": "https://github.com/jacky105402002/MingMing-AI-Product-Engineering-Loop/blob/main/README.md",
+    "showcase": {
+      "name": "MingMing",
+      "category": "AI ENGINEERING",
+      "caption": "讓開發有脈絡，也有依據。",
+      "steps": [
+        "規劃",
+        "實作",
+        "驗證"
+      ],
+      "kind": "workflow"
+    }
   },
   {
     "repo": "jacky105402002/ai-web-package-react",
     "title": "AI Web Package｜讓原型成為專案",
     "summary": "把 AI 產生的前端原型整理為 React／Vite 專案，補上建置、部署與轉換檢查文件。",
-    "verifiedAt": "2026-10-07",
-    "source": "https://github.com/jacky105402002/ai-web-package-react/blob/main/README.md"
+    "verifiedAt": "2026-10-15",
+    "source": "https://github.com/jacky105402002/ai-web-package-react/blob/main/README.md",
+    "showcase": {
+      "name": "AI Web Package",
+      "category": "WEB TOOLING",
+      "caption": "把原型，整理成可交付的專案。",
+      "steps": [
+        "原型",
+        "整理",
+        "部署"
+      ],
+      "kind": "package"
+    }
   }
 ]

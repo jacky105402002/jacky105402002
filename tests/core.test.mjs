@@ -51,7 +51,7 @@ test('URLs and text escape malicious input without invoking it',()=>{
 test('all cards deterministic, accessible, bounded in size and share snapshot data',async()=>{
   const config=await loadConfig(),s=fixtureSnapshot();
   const first=outputs(config,s,{allowFixture:true});assert.deepEqual(first,outputs(config,s,{allowFixture:true}));
-  assert.equal(Object.keys(first).filter(f=>f.endsWith('.svg')).length,6);
+  assert.equal(Object.keys(first).filter(f=>f.endsWith('.svg')).length,8+2*config.projects.length);
   assert.match(first['README.md'],/示意資料，非 Jacky/);assert(first['README.md'].includes(String(s.contributionTotals.calendar)));
   for(const [p,v]of Object.entries(first).filter(([p])=>p.endsWith('.svg'))){assert(v.includes('<title '));assert(v.includes('<desc '));assert(Buffer.byteLength(v)<100000,p);assert(!/<script|foreignObject/.test(v));}
 });

@@ -9,13 +9,29 @@
 
 ## 精選作品
 
-### 01 / MingMing｜讓 AI 開發有章可循
+把想法落地，也把方法留下。
+
+<a href="https://github.com/jacky105402002/MingMing-AI-Product-Engineering-Loop">
+<picture>
+  <source media="(max-width: 900px)" srcset="assets/generated/project-1-mobile.svg">
+  <img src="assets/generated/project-1.svg" alt="MingMing：規劃 → 實作 → 驗證，專案概念封面" width="720">
+</picture>
+</a>
+
+### MingMing｜讓 AI 開發有章可循
 
 串連規劃、實作、審查與測試，讓 AI 輔助開發有清楚的步驟與可追蹤的文件。
 
 [閱讀專案與使用說明 →](https://github.com/jacky105402002/MingMing-AI-Product-Engineering-Loop)
 
-### 02 / AI Web Package｜讓原型成為專案
+<a href="https://github.com/jacky105402002/ai-web-package-react">
+<picture>
+  <source media="(max-width: 900px)" srcset="assets/generated/project-2-mobile.svg">
+  <img src="assets/generated/project-2.svg" alt="AI Web Package：原型 → 整理 → 部署，專案概念封面" width="720">
+</picture>
+</a>
+
+### AI Web Package｜讓原型成為專案
 
 把 AI 產生的前端原型整理為 React／Vite 專案，補上建置、部署與轉換檢查文件。
 
@@ -23,11 +39,12 @@
 
 ## 開發足跡
 
-- **156 次可見貢獻** · 近 12 個月份
-- **26 個公開原創專案** · 目前，排除封存專案
-- **6 顆 Stars** · 上述專案目前累計
+<picture>
+  <source media="(max-width: 900px)" srcset="assets/generated/overview-mobile.svg">
+  <img src="assets/generated/overview.svg" alt="156 次可見貢獻（近 12 個月份）；26 個公開原創專案（目前，排除封存專案）；6 顆 Stars（上述專案目前累計）" width="720">
+</picture>
 
-貢獻期間：2025-11-01 — 2026-10-15（含尚未結束的本月）。
+貢獻期間：**2025-11-01 — 2026-10-15**（含本月）。專案與 Stars 為目前值，排除 fork 與封存專案。
 
 程式碼以 **TypeScript、JavaScript、HTML** 為主；依公開原創專案的程式碼量統計，不代表熟練度。
 
