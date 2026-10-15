@@ -2,11 +2,11 @@
   "schemaVersion": "1.0.0",
   "login": "jacky105402002",
   "status": "ok",
-  "sourceDate": "2026-10-14",
-  "lastSuccessfulFetchAt": "2026-10-14T05:02:56.448Z",
+  "sourceDate": "2026-10-15",
+  "lastSuccessfulFetchAt": "2026-10-15T04:51:45.703Z",
   "period": {
     "from": "2025-11-01",
-    "through": "2026-10-14"
+    "through": "2026-10-15"
   },
   "repositoryScope": "public-owned-nonfork-unarchived",
   "contributionScope": "github-visible-including-public-anonymous-counts",
@@ -64,7 +64,7 @@
       "description": "",
       "stars": 2,
       "languagesBytes": {
-        "JavaScript": 53982
+        "JavaScript": 93321
       }
     },
     {
@@ -1999,6 +1999,11 @@
       "date": "2026-10-14",
       "count": 0,
       "level": "NONE"
+    },
+    {
+      "date": "2026-10-15",
+      "count": 0,
+      "level": "NONE"
     }
   ],
   "contributionTotals": {
@@ -2016,27 +2021,27 @@
     {
       "name": "TypeScript",
       "bytes": 402374,
-      "percent": 35.4
+      "percent": 34.2
     },
     {
       "name": "JavaScript",
-      "bytes": 269844,
-      "percent": 23.7
+      "bytes": 309183,
+      "percent": 26.3
     },
     {
       "name": "HTML",
       "bytes": 224678,
-      "percent": 19.8
+      "percent": 19.1
     },
     {
       "name": "CSS",
       "bytes": 127955,
-      "percent": 11.3
+      "percent": 10.9
     },
     {
       "name": "Python",
       "bytes": 105707,
-      "percent": 9.3
+      "percent": 9
     },
     {
       "name": "其他",
