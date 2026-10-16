@@ -41,25 +41,25 @@
 
 <picture>
   <source media="(max-width: 900px)" srcset="assets/generated/overview-mobile.svg">
-  <img src="assets/generated/overview.svg" alt="159 次可見貢獻（近 12 個月份）；27 個公開原創專案（目前，排除封存專案）；6 顆 Stars（上述專案目前累計）" width="720">
+  <img src="assets/generated/overview.svg" alt="160 次可見貢獻（近 12 個月份）；27 個公開原創專案（目前，排除封存專案）；6 顆 Stars（上述專案目前累計）" width="720">
 </picture>
 
-貢獻期間：**2025-11-01 — 2026-10-15**（含本月）。專案與 Stars 為目前值，排除 fork 與封存專案。
+貢獻期間：**2025-11-01 — 2026-10-16**（含本月）。專案與 Stars 為目前值，排除 fork 與封存專案。
 
 程式碼以 **TypeScript、JavaScript、HTML** 為主；依公開原創專案的程式碼量統計，不代表熟練度。
 
 <details>
 <summary>展開活動圖表</summary>
 
-![活動摘要，2025-11-01 至 2026-10-15；另附文字數據](assets/generated/activity.svg)
+![活動摘要，2025-11-01 至 2026-10-16；另附文字數據](assets/generated/activity.svg)
 
-![連續貢獻，2025-11-01 至 2026-10-15；另附文字數據](assets/generated/streak.svg)
+![連續貢獻，2025-11-01 至 2026-10-16；另附文字數據](assets/generated/streak.svg)
 
-![語言分布，2025-11-01 至 2026-10-15；另附文字數據](assets/generated/languages.svg)
+![語言分布，2025-11-01 至 2026-10-16；另附文字數據](assets/generated/languages.svg)
 
-![每月貢獻，2025-11-01 至 2026-10-15；另附文字數據](assets/generated/monthly.svg)
+![每月貢獻，2025-11-01 至 2026-10-16；另附文字數據](assets/generated/monthly.svg)
 
-![每日貢獻日曆，2025-11-01 至 2026-10-15；另附文字數據](assets/generated/calendar.svg)
+![每日貢獻日曆，2025-11-01 至 2026-10-16；另附文字數據](assets/generated/calendar.svg)
 
 </details>
 
@@ -72,8 +72,8 @@
 
 | 指標 | 數值 |
 | --- | --- |
-| GitHub 可見貢獻 | 159 |
-| Commit 貢獻 | 130 |
+| GitHub 可見貢獻 | 160 |
+| Commit 貢獻 | 131 |
 | PR 貢獻 | 5 |
 | Issue 貢獻 | 1 |
 | Review 貢獻 | 0 |
@@ -96,7 +96,7 @@
 | 2026-07 | 6 | 完整月份 |
 | 2026-08 | 5 | 完整月份 |
 | 2026-09 | 0 | 完整月份 |
-| 2026-10 | 13 | 本月未結束 |
+| 2026-10 | 14 | 本月未結束 |
 
 | 語言分類 | 程式碼 bytes | 占比 |
 | --- | --- | --- |
@@ -457,8 +457,9 @@
 | 2026-10-12 | 0 |
 | 2026-10-13 | 0 |
 | 2026-10-14 | 0 |
-| 2026-10-15 | 3 |
+| 2026-10-15 | 4 |
+| 2026-10-16 | 0 |
 
 </details>
 
-<sub>最後更新：2026/10/15 20:54（台灣時間）</sub>
+<sub>最後更新：2026/10/16 12:42（台灣時間）</sub>
