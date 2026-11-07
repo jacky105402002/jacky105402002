@@ -41,25 +41,25 @@
 
 <picture>
   <source media="(max-width: 900px)" srcset="assets/generated/overview-mobile.svg">
-  <img src="assets/generated/overview.svg" alt="141 次可見貢獻（近 12 個月份）；27 個公開原創專案（目前，排除封存專案）；6 顆 Stars（上述專案目前累計）" width="720">
+  <img src="assets/generated/overview.svg" alt="144 次可見貢獻（近 12 個月份）；28 個公開原創專案（目前，排除封存專案）；6 顆 Stars（上述專案目前累計）" width="720">
 </picture>
 
-貢獻期間：**2025-12-01 — 2026-11-06**（含本月）。專案與 Stars 為目前值，排除 fork 與封存專案。
+貢獻期間：**2025-12-01 — 2026-11-07**（含本月）。專案與 Stars 為目前值，排除 fork 與封存專案。
 
-程式碼以 **TypeScript、JavaScript、HTML** 為主；依公開原創專案的程式碼量統計，不代表熟練度。
+程式碼以 **JavaScript、TypeScript、HTML** 為主；依公開原創專案的程式碼量統計，不代表熟練度。
 
 <details>
 <summary>展開活動圖表</summary>
 
-![活動摘要，2025-12-01 至 2026-11-06；另附文字數據](assets/generated/activity.svg)
+![活動摘要，2025-12-01 至 2026-11-07；另附文字數據](assets/generated/activity.svg)
 
-![連續貢獻，2025-12-01 至 2026-11-06；另附文字數據](assets/generated/streak.svg)
+![連續貢獻，2025-12-01 至 2026-11-07；另附文字數據](assets/generated/streak.svg)
 
-![語言分布，2025-12-01 至 2026-11-06；另附文字數據](assets/generated/languages.svg)
+![語言分布，2025-12-01 至 2026-11-07；另附文字數據](assets/generated/languages.svg)
 
-![每月貢獻，2025-12-01 至 2026-11-06；另附文字數據](assets/generated/monthly.svg)
+![每月貢獻，2025-12-01 至 2026-11-07；另附文字數據](assets/generated/monthly.svg)
 
-![每日貢獻日曆，2025-12-01 至 2026-11-06；另附文字數據](assets/generated/calendar.svg)
+![每日貢獻日曆，2025-12-01 至 2026-11-07；另附文字數據](assets/generated/calendar.svg)
 
 </details>
 
@@ -72,15 +72,15 @@
 
 | 指標 | 數值 |
 | --- | --- |
-| GitHub 可見貢獻 | 141 |
-| Commit 貢獻 | 113 |
+| GitHub 可見貢獻 | 144 |
+| Commit 貢獻 | 115 |
 | PR 貢獻 | 5 |
 | Issue 貢獻 | 1 |
 | Review 貢獻 | 0 |
-| 目前公開原創專案 | 27 |
+| 目前公開原創專案 | 28 |
 | 目前 Stars | 6 |
-| 目前連續天數 | 0 |
-| 連續天數截至 | 今日與昨日皆無貢獻 |
+| 目前連續天數 | 1 |
+| 連續天數截至 | 2026-11-06 |
 | 期間內最長連續天數 | 6 |
 
 | 月份 | 貢獻 | 狀態 |
@@ -96,16 +96,16 @@
 | 2026-08 | 5 | 完整月份 |
 | 2026-09 | 0 | 完整月份 |
 | 2026-10 | 14 | 完整月份 |
-| 2026-11 | 0 | 本月未結束 |
+| 2026-11 | 3 | 本月未結束 |
 
 | 語言分類 | 程式碼 bytes | 占比 |
 | --- | --- | --- |
-| TypeScript | 402374 | 34.1% |
-| JavaScript | 315240 | 26.7% |
-| HTML | 224678 | 19.0% |
-| CSS | 127955 | 10.8% |
-| Python | 105707 | 8.9% |
-| 其他 | 5927 | 0.5% |
+| JavaScript | 432317 | 32.6% |
+| TypeScript | 402374 | 30.3% |
+| HTML | 242968 | 18.3% |
+| CSS | 133372 | 10.1% |
+| Python | 105707 | 8.0% |
+| 其他 | 9861 | 0.7% |
 
 | 日期 | 貢獻 |
 | --- | --- |
@@ -449,8 +449,9 @@
 | 2026-11-03 | 0 |
 | 2026-11-04 | 0 |
 | 2026-11-05 | 0 |
-| 2026-11-06 | 0 |
+| 2026-11-06 | 3 |
+| 2026-11-07 | 0 |
 
 </details>
 
-<sub>最後更新：2026/11/06 14:59（台灣時間）</sub>
+<sub>最後更新：2026/11/07 14:12（台灣時間）</sub>

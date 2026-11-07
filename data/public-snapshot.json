@@ -2,11 +2,11 @@
   "schemaVersion": "1.0.0",
   "login": "jacky105402002",
   "status": "ok",
-  "sourceDate": "2026-11-06",
-  "lastSuccessfulFetchAt": "2026-11-06T06:59:00.147Z",
+  "sourceDate": "2026-11-07",
+  "lastSuccessfulFetchAt": "2026-11-07T06:12:12.172Z",
   "period": {
     "from": "2025-12-01",
-    "through": "2026-11-06"
+    "through": "2026-11-07"
   },
   "repositoryScope": "public-owned-nonfork-unarchived",
   "contributionScope": "github-visible-including-public-anonymous-counts",
@@ -72,6 +72,20 @@
       "stars": 2,
       "languagesBytes": {
         "JavaScript": 93321
+      }
+    },
+    {
+      "name": "NotFound404-",
+      "url": "https://github.com/jacky105402002/NotFound404-",
+      "description": "",
+      "stars": 0,
+      "languagesBytes": {
+        "Batchfile": 137,
+        "CSS": 5417,
+        "Dockerfile": 294,
+        "HTML": 18290,
+        "JavaScript": 117077,
+        "PowerShell": 3503
       }
     },
     {
@@ -1969,51 +1983,56 @@
     },
     {
       "date": "2026-11-06",
+      "count": 3,
+      "level": "SECOND_QUARTILE"
+    },
+    {
+      "date": "2026-11-07",
       "count": 0,
       "level": "NONE"
     }
   ],
   "contributionTotals": {
-    "calendar": 141,
-    "commits": 113,
+    "calendar": 144,
+    "commits": 115,
     "issues": 1,
     "pullRequests": 5,
     "reviews": 0
   },
   "currentRepositoryTotals": {
-    "repositoryCount": 27,
+    "repositoryCount": 28,
     "stars": 6
   },
   "languages": [
     {
-      "name": "TypeScript",
-      "bytes": 402374,
-      "percent": 34.1
+      "name": "JavaScript",
+      "bytes": 432317,
+      "percent": 32.6
     },
     {
-      "name": "JavaScript",
-      "bytes": 315240,
-      "percent": 26.7
+      "name": "TypeScript",
+      "bytes": 402374,
+      "percent": 30.3
     },
     {
       "name": "HTML",
-      "bytes": 224678,
-      "percent": 19
+      "bytes": 242968,
+      "percent": 18.3
     },
     {
       "name": "CSS",
-      "bytes": 127955,
-      "percent": 10.8
+      "bytes": 133372,
+      "percent": 10.1
     },
     {
       "name": "Python",
       "bytes": 105707,
-      "percent": 8.9
+      "percent": 8
     },
     {
       "name": "其他",
-      "bytes": 5927,
-      "percent": 0.5
+      "bytes": 9861,
+      "percent": 0.7
     }
   ],
   "months": [
@@ -2074,13 +2093,13 @@
     },
     {
       "month": "2026-11",
-      "count": 0,
+      "count": 3,
       "isPartial": true
     }
   ],
   "streak": {
-    "current": 0,
-    "currentThrough": null,
+    "current": 1,
+    "currentThrough": "2026-11-06",
     "longestInPeriod": 6,
     "startBoundaryReached": false
   }
